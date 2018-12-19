@@ -3,6 +3,7 @@
 if [ $? = 0 ] ; then
 	if [ "$#" -gt "0" ]; then 
 		TEX_NAME="$1.tex"
+		echo "$TEX_NAME"
 		pdflatex -halt-on-error "$TEX_NAME"
 		if [ $? = 0 ] ; then #$? gets error code from last command
 		  osascript -e 'quit app "Preview"'
