@@ -1,5 +1,5 @@
 #!/bin/sh
-git pull
+#git pull
 if [ $? = 0 ] ; then
 	if [ "$#" -gt "0" ]; then 
 		TEX_NAME="$1.tex"
