@@ -5,7 +5,7 @@ if [ $? = 0 ] ; then
 		if [ $? != 0 ] ; then #$? gets error code from last command
 		  echo "LateXing failed!"
 		else 
-		 echo "LaTeXing worked  
+		 echo "LaTeXing worked"
 		fi
 	else
 		echo "Insufficient paramaters"
