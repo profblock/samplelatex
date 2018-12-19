@@ -23,3 +23,4 @@ if [ $? = 0 ] ; then
 else 
 	echo "pull failed"
 fi
+return 0
